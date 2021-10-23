@@ -1,8 +1,7 @@
-# Kate Petersen's Website
 
-## Project Highlights
+# Project Highlights
 
-### Building malloc in C
+## Building malloc in C
 
 Through Carnegie Mellon University, I implemented the 
 
