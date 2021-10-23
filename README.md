@@ -54,6 +54,27 @@ This sample shows off the main `malloc` function used to allocate a new block of
             return bp;
         }
     }
+                               
+    // The block should be marked as free
+    dbg_assert(!get_alloc(block));
+
+    // Mark block as allocated
+    size_t block_size = get_size(block);
+    segList_remove(block);
+    write_block(block, block_size, true, get_boundary(block));
+
+    // change next block's boundary bit to reflect allocation change
+    block_t *nextB = find_next(block);
+    if (nextB != NULL && get_size(nextB) != 0) {
+        write_block(nextB, get_size(nextB), get_alloc(nextB), true);
+    }
+
+    // Try to split the block if too large
+    split_block(block, asize);
+    bp = header_to_payload(block);
+    dbg_ensures(mm_checkheap(__LINE__));
+    return bp;
+}
   ```
                                
 </p>
