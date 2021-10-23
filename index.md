@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 ## Building malloc in C
 
 ### Overview
