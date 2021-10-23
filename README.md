@@ -1,4 +1,3 @@
-## Kate Petersen's Portfolio
 
 ### Project Highlights
 
