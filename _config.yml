@@ -1,6 +1,5 @@
-remote_theme: lewismiddleton/cayman-dark
+theme: jekyll-theme-cayman
 title: Kate Petersen's Portfolio
 description: A website highlighting some of my programming projects and skills.
 markdown: CommonMarkGhPages
 
-theme: jekyll-theme-cayman
