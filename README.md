@@ -1,9 +1,6 @@
+## Building malloc in C
 
-## Project Highlights
-
-### Building malloc in C
-
-#### Overview
+### Overview
 
 Through Carnegie Mellon University, I wrote the `malloc` command for allocating memory in C. In the implementation, I used linked lists to allocate and free blocks of memory. The project optimizes memory allocation through coalescing free memory blocks, systematically extending the heap, and improving search with multiple linked lists for different block sizes.
 
