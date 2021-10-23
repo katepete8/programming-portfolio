@@ -18,7 +18,7 @@ This sample shows off the main `malloc` function used to allocate a new block of
 <details>
   <summary>Click to view</summary>
   
-  ```
+  ```C
   void *malloc(size_t size) {
 
     dbg_requires(mm_checkheap(__LINE__));
