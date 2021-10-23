@@ -1,7 +1,8 @@
+# Kate Petersen's Website
 
-### Project Highlights
+## Project Highlights
 
-# Building malloc in C
+### Building malloc in C
 
 ```markdown
 Syntax highlighted code block
