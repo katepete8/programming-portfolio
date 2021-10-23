@@ -17,6 +17,7 @@ This sample shows off the main `malloc` function used to allocate a new block of
 
 <details>
   <summary>Click to view</summary>
+  
   ```
   void *malloc(size_t size) {
 
