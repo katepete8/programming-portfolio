@@ -17,7 +17,8 @@ This sample shows off the main `malloc` function used to allocate a new block of
 
 <details>
   <summary>Click to view</summary>
-  
+  <p>
+    
   ```C
   void *malloc(size_t size) {
 
@@ -57,4 +58,7 @@ This sample shows off the main `malloc` function used to allocate a new block of
         }
     }
   ```
+                               
+</p>
 </details>
+
