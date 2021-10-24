@@ -4,12 +4,10 @@ layout: post
 ### Overview
 
 Through Carnegie Mellon University, I wrote the `malloc` command for allocating memory in C. In the implementation, I used linked lists to allocate and free blocks of memory. The project optimizes memory allocation through coalescing free memory blocks, systematically extending the heap, and improving search with multiple linked lists for different block sizes.
-
 ### Skills used
 - C language
 - Data structures (linked lists, stacks, queues, etc.)
 - Systems level programming
-
 ### Code sample
 This sample shows off the main `malloc` function used to allocate a new block of a certain size. Please note that I cannot share the entire project due to university policy. 
 
