@@ -5,6 +5,7 @@ subtitle: "A project in systems-level programming"
 date: 2021-04-15
 background: 'assets/images/Headshot.png'
 ---
+<link href="/prism.css" rel="stylesheet" />
 
 <h3>Overview</h3>
 
@@ -18,7 +19,7 @@ background: 'assets/images/Headshot.png'
 <p>This sample shows off the main <code>malloc</code> function used to allocate a new block of a certain size. Please note that I cannot share the entire project due to university policy.<p>
 
 <pre>
-  <code>
+  <code class="language-c">
   void *malloc(size_t size) {
 
     dbg_requires(mm_checkheap(__LINE__));
