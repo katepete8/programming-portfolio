@@ -2,7 +2,6 @@
 layout: post
 author: Kate
 ---
-
 ## Building malloc in C
 
 ### Overview
