@@ -5,6 +5,19 @@ subtitle: "A project in systems-level programming"
 date: 2021-04-15
 background: 'assets/images/Headshot.png'
 ---
+
+<style>
+  .expand > input[name="collapse"] {
+    display: none;
+  }
+  .expand .content {
+    background: #fff;
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+</style>
 <h3>Overview</h3>
 
 <p>Through Carnegie Mellon University, I wrote the <code>malloc</code> command for allocating memory in C. In the implementation, I used linked lists to allocate and free blocks of memory. The project optimizes memory allocation through coalescing free memory blocks, systematically extending the heap, and improving search with multiple linked lists for different block sizes.</p>
