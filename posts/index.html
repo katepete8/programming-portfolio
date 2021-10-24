@@ -4,7 +4,7 @@ title: Posts
 background: 'assets/images/bannerImage.png'
 ---
 
-<!--{% for post in site.posts %}
+{% for post in paginator.posts %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -46,4 +46,3 @@ Pager
 </div>
 
 {% endif %}
--->
