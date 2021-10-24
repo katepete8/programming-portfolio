@@ -5,8 +5,7 @@ background: '/assets/images/bannerImage.png'
 ---
 
 {% for post in paginator.posts %}
-  <h1>{{ post.title }}</h1>
-{% endfor %}
+<h1 class="post-title">{{ post.title }} </h1>
 <!--<article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title }}</h2>
@@ -25,12 +24,12 @@ background: '/assets/images/bannerImage.png'
     on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
   </p>
 </article>
-
+-->
 <hr>
 
 {% endfor %}
 
-Pager 
+<!--Pager 
 {% if paginator.total_pages > 1 %}
 
 <div class="clearfix">
