@@ -6,18 +6,27 @@ date: 2021-04-15
 ---
 <h3>Overview</h3>
 
-<p>Through Carnegie Mellon University, I wrote the `malloc` command for allocating memory in C. In the implementation, I used linked lists to allocate and free blocks of memory. The project optimizes memory allocation through coalescing free memory blocks, systematically extending the heap, and improving search with multiple linked lists for different block sizes.</p>
+<p>Through Carnegie Mellon University, I wrote the <code>malloc</code> command for allocating memory in C. In the implementation, I used linked lists to allocate and free blocks of memory. The project optimizes memory allocation through coalescing free memory blocks, systematically extending the heap, and improving search with multiple linked lists for different block sizes.</p>
 
 <h3>Skills used</h3>
 <ul><li>C language</li><li>Data structures (linked lists, stacks, queues, etc.)</li><li>Systems level programming</li></ul>
 
 <h3>Code sample</h3>
 
-<p>This sample shows off the main `malloc` function used to allocate a new block of a certain size. Please note that I cannot share the entire project due to university policy.<p>
+<p>This sample shows off the main <code>malloc</code> function used to allocate a new block of a certain size. Please note that I cannot share the entire project due to university policy.<p>
 
-<pre>
-  <summary>Click to view</summary>
-  <code>C
+
+<section class="expand">
+  <input type="radio" name="collapse" id="handle1" checked="checked">
+  <h2 class="handle">
+    <label for="handle1">
+    Click to expand code 
+    </label>
+  </h2>
+  
+  <div class="content">
+    <p><pre>
+  <code>
   void *malloc(size_t size) {
 
     dbg_requires(mm_checkheap(__LINE__));
@@ -77,4 +86,6 @@ date: 2021-04-15
     return bp;
 }
       </code>
-</pre>
+</pre></p>  
+  </div>
+</section>
