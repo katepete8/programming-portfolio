@@ -1,5 +1,8 @@
 ---
 layout: post
+title: "Building malloc in C"
+subtitle: "A project in systems-level programming"
+date: 2021-04
 ---
 ### Overview
 
