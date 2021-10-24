@@ -6,22 +6,6 @@ date: 2021-04-15
 background: 'assets/images/Headshot.png'
 ---
 
-<style>
-  .expand > input[name="collapse"] {
-    display: none;
-  }
-  .expand .content {
-    background: #fff;
-    overflow: hidden;
-    height: 0;
-    transition: 0.5s;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  .expand > input[name="collapse"]:checked ~ .content {
-    height: 380px;
-    transition: height 0.5s;
-  }
-</style>
 <h3>Overview</h3>
 
 <p>Through Carnegie Mellon University, I wrote the <code>malloc</code> command for allocating memory in C. In the implementation, I used linked lists to allocate and free blocks of memory. The project optimizes memory allocation through coalescing free memory blocks, systematically extending the heap, and improving search with multiple linked lists for different block sizes.</p>
@@ -33,17 +17,7 @@ background: 'assets/images/Headshot.png'
 
 <p>This sample shows off the main <code>malloc</code> function used to allocate a new block of a certain size. Please note that I cannot share the entire project due to university policy.<p>
 
-
-<section class="expand">
-  <input type="radio" name="collapse" id="handle1" checked="checked">
-  <h2 class="handle">
-    <label for="handle1">
-    Click to expand code 
-    </label>
-  </h2>
-  
-  <div class="content">
-    <p><pre>
+<pre>
   <code>
   void *malloc(size_t size) {
 
@@ -104,6 +78,4 @@ background: 'assets/images/Headshot.png'
     return bp;
 }
       </code>
-</pre></p>  
-  </div>
-</section>
+</pre>
