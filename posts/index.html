@@ -3,7 +3,7 @@ layout: page
 background: 'assets/images/bannerImage.png'
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -28,7 +28,7 @@ background: 'assets/images/bannerImage.png'
 
 {% endfor %}
 
-<!-- Pager -->
+<!-- Pager 
 {% if paginator.total_pages > 1 %}
 
 <div class="clearfix">
@@ -45,3 +45,4 @@ background: 'assets/images/bannerImage.png'
 </div>
 
 {% endif %}
+-->
