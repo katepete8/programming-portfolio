@@ -1,6 +1,6 @@
 #theme: jekyll-theme-cayman
 title: Kate Petersen
-remote_theme: "raviriley/agency-jekyll-theme"
+remote_theme: "rStartBootstrap/startbootstrap-clean-blog-jekyll"
 description: A website highlighting some of my programming projects and skills.
 markdown: CommonMarkGhPages
 
