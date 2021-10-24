@@ -2,7 +2,7 @@
 layout: post
 title: "Building malloc in C"
 subtitle: "A project in systems-level programming"
-date: 2021-04
+date: 2021-04-15
 ---
 <h3>Overview</h3>
 
@@ -15,11 +15,9 @@ date: 2021-04
 
 <p>This sample shows off the main `malloc` function used to allocate a new block of a certain size. Please note that I cannot share the entire project due to university policy.<p>
 
-<details>
+<pre>
   <summary>Click to view</summary>
-  <p>
-    
-  ```C
+  <code>C
   void *malloc(size_t size) {
 
     dbg_requires(mm_checkheap(__LINE__));
@@ -78,7 +76,5 @@ date: 2021-04
     dbg_ensures(mm_checkheap(__LINE__));
     return bp;
 }
-  ```
-                               
-</p>
-</details>
+      </code>
+</pre>
