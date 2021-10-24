@@ -6,4 +6,4 @@ markdown: CommonMarkGhPages
 email: kpeterse@andrew.cmu.edu
 linkedin_username: katherine-kate-petersen
 paginate: 2
-paginate_path: "/posts/index:num/"
+paginate_path: "/posts/page:num/"
