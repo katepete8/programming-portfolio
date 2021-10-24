@@ -5,6 +5,11 @@ subtitle: "A project in systems-level programming"
 date: 2021-04-15
 background: '/assets/images/bannerImage.png'
 ---
+<style>
+  .html {
+   width: 80%; 
+  }
+</style>
 <link href="/prism.css" rel="stylesheet" />
 <script src="/prism.js"></script>
 
@@ -20,7 +25,7 @@ background: '/assets/images/bannerImage.png'
 <p>This sample shows off the main <code>malloc</code> function used to allocate a new block of a certain size. Please note that I cannot share the entire project due to university policy.<p>
 
 <pre>
-  <code class="language-clike" width="70%">
+  <code class="language-clike">
   void *malloc(size_t size) {
 
     dbg_requires(mm_checkheap(__LINE__));
