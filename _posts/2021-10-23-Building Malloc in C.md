@@ -1,6 +1,5 @@
 ---
 layout: post
-author: Kate
 ---
 ### Overview
 
